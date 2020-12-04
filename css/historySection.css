@@ -1,0 +1,69 @@
+#history{
+    background: url('../images/bgMiddle.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    border-top: 5px solid white;
+}
+
+#history{
+    padding-top: 5em;
+    position: relative;
+}
+
+#history .historyTextBox p{
+    margin-top:20px;
+    padding:0 60px 0 60px;
+    font-size:18px;
+}
+
+#history #carousel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #414f6be8;
+    border-top:1px solid gray;
+    padding:20px;
+}
+
+#history #carouselItems{
+    overflow: hidden;
+    max-height: 168px;
+    position: relative;
+    align-items: baseline;
+}
+
+#history #carousel ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#history #carouselItems #carItems1{
+    animation: moveOut 5s infinite;
+    height: 168px;
+    width: 90%;
+    text-align: center;
+}
+
+#history #carDots{
+    color: white;
+    padding:5px;
+    width: 100%;
+}
+
+#history #carDots ul li{
+    opacity: 0.5;
+}
+
+#history #carDots ul .active{
+    opacity: 1;
+}
+
+@keyframes moveOut {
+    0%   {opacity: 0;}
+    10%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0;}
+}

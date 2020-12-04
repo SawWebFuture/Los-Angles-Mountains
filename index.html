@@ -1,0 +1,211 @@
+<!-- Site build by Scott Alan Williams on Dec 2nd, 2020 -->
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Los Angeles Mountains</title>
+    <meta name="description" content="The HTML & CSS Los Angeles Mountains Website">
+    <meta name="author" content="Scott Williams">
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/resetCSS.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="css/historySection.css?v=1.0">
+    <link rel="stylesheet" href="css/climbSection.css?v=1.0">
+
+</head>
+
+<body>
+    <div w3-include-html=" ./components/header.html">
+    </div>
+    <header>
+        <nav id="mainNav" class="flex container">
+            <h1 class="hide">Los Angeles Mountains</h1>
+            <div id="navLogo">
+                <a href="#"><img src="images/logoSimple.png" alt="Los Angeles Mountain Logo" /></a>
+            </div>
+            <div id="navLinks">
+                <ul>
+                    <li><a href="#history">01. History</a></li>
+                    <li><a href="#climb">02. Climb</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- sticky nav -->
+        <div id="stickyNav">
+            <div>
+                <div class="container flex">
+                    <div id="navLogo">
+                        <a href="#"><img src="images/logoWithText.png" alt="Los Angeles Mountain Logo with Text" /></a>
+                    </div>
+                    <div id="navLinks">
+                        <ul>
+                            <li><a href="#history">01. History</a></li>
+                            <li><a href="#climb">02. Climb</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- 01 History -->
+    <div id="history">
+
+        <div class="container">
+            <div class="historyTextBox">
+                <div class="BoxTitle oswaldFont">
+                    <div class="boxTitleNumber upperCase">
+                        01.
+                    </div>
+                    <h2 class="boxTitle upperCase">
+                        History
+                    </h2>
+                </div>
+                <p class="latoFont">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat
+                    rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit
+                    tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+                    hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                </p>
+            </div>
+        </div>
+
+        <div id="carousel">
+            <div class="container">
+                <div id="carouselItems" class="flex justifyCenter">
+
+                    <ul id="carItems1">
+                        <li><img src="images/carouselImage1.jpg" alt="Man on Mountain" /></li>
+                        <li><img src="images/carouselImage2.jpg" alt="Foggy Landscape" /></li>
+                        <li><img src="images/carouselImage1.jpg" alt="Man on Mountain" /></li>
+                        <li><img src="images/carouselImage2.jpg" alt="Foggy Landscape" /></li>
+                    </ul>
+
+                    <ul class="displayNone">
+                        <li><img src="images/carouselImage2.jpg" alt="Foggy Landscape" /></li>
+                        <li><img src="images/carouselImage1.jpg" alt="Man on Mountain" /></li>
+                        <li><img src="images/carouselImage2.jpg" alt="Foggy Landscape" /></li>
+                        <li><img src="images/carouselImage2.jpg" alt="Foggy Landscape" /></li>
+                    </ul>
+
+                </div>
+                <div id="carDots">
+                    <ul class="flex justifyCenter">
+                        <li class="active">&bull;</li>
+                        <li>&bull;</li>
+                        <li>&bull;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- climb -->
+    <div id="climb">
+        <div id="climbHeader" class="container">
+            <div class="flex">
+                <div class="BoxTitle oswaldFont">
+                    <div class="boxTitleNumber upperCase">
+                        02.
+                    </div>
+                    <h2 class="boxTitle upperCase">
+                        Climb
+                    </h2>
+                </div>
+                <div id="climbHeaderText">
+                    <p>
+                        Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac,
+                        tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="climbMenu">
+            <div class="container">
+                <ul>
+                    <li><a href="#" class="oswaldFont">Mountain 1</a></li>
+                    <li><a href="#" class="oswaldFont">Mountain 2</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="climbSchedule">
+            <div class="container relative">
+                <div id="climbScheduleBox">
+                    <div id="climbScheduleBoxTitle" class="oswaldFont upperCase">
+                        <h4>Schedule</h4>
+                    </div>
+                    <div id="climbScheduleBoxContent">
+
+                        <div class="csBoxContent flex">
+                            <p>25 Nov 2016</p>
+                            <p>Vestibulum viverra</p>
+                        </div>
+
+                        <div class="csBoxContent flex">
+                            <p>28 Nov 2016</p>
+                            <p>Vestibulum viverra</p>
+                        </div>
+
+                        <div class="csBoxContent flex">
+                            <p>18 Dec 2016</p>
+                            <p>Vestibulum viverra</p>
+                        </div>
+
+                        <div class="csBoxContent flex">
+                            <p>7 Jan 2017</p>
+                            <p>Vestibulum viverra</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div id="footerInfo">
+            <div id="footerFade" class="container flex">
+                <div>
+                    <img src="images/logoWithWhiteText.png" alt="Los Angeles Moutains Footer Logo" />
+                </div>
+                <div>
+                    <p>COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                document.getElementById("mainNav").style.display = "none";
+                document.getElementById("stickyNav").style.display = "block";
+            } else {
+                document.getElementById("mainNav").style.display = "flex";
+                document.getElementById("stickyNav").style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

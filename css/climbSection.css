@@ -1,0 +1,63 @@
+
+#climb #climbHeader{
+    padding:22px 0;
+}
+
+#climbHeaderText p{
+    padding:40px;
+    margin-left:50px;
+}
+
+#climb #climbMenu{
+    background-color: #414f6b;
+}
+
+#climb #climbMenu ul li{
+    display: table-cell;
+}
+
+#climb #climbMenu ul li a{
+    padding: 15px 20px;
+    display: block;
+    color: #b0b4be;
+    border-bottom:none;
+    font-style: normal;
+    font-size: 22px;
+}
+
+#climb #climbMenu ul li a:hover{
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+}
+
+#climbSchedule{
+    background: url('../images/bgBottom.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+#climbScheduleBox{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;;
+    width:350px;
+    position: absolute;
+    left:20px;
+    top: 100px;
+    padding: 20px 15px;
+}
+
+#climbScheduleBoxTitle{
+    font-size:33px;
+    font-weight: bold;
+    color: #414f6b;
+    margin: 0 0 30px 30px;
+}
+
+#climb .csBoxContent{
+     margin:15px 0;
+     justify-content: space-around;
+}

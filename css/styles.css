@@ -1,0 +1,120 @@
+header{
+    background: url('../images/bgTop.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+header #navLinks ul li{
+    display: inline-block;
+    margin-left:2em;
+}
+
+nav{
+    color: white;
+}
+
+#stickyNav{
+    background:white;
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:20;
+}
+
+#stickyNav a{
+    color: black;
+}
+
+#stickyNav a:hover {
+    border-bottom:1px solid black;
+}
+
+#footerInfo{
+    background-color: #414f6b;
+    color: white;
+}
+
+#footerFade{
+    opacity: 0.5;
+}
+
+/* global classes */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+a:hover {
+    border-bottom:1px solid white;
+}
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hide{
+    position: absolute;
+    right: -9999px;
+}
+
+.displayNone{
+    display: none !important;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justifyCenter{
+    justify-content: center !important;
+}
+
+.relative{
+    position: relative;
+}
+
+.oswaldFont{
+    font-family: 'Oswald', sans-serif;
+}
+
+.upperCase{
+    text-transform: uppercase !important;
+}
+
+.BoxTitle{
+    position: relative;
+}
+
+.BoxTitle .boxTitleNumber{
+    font-size:100px;
+    font-weight: bold;
+    color: #414f6b;
+    opacity: 0.5;
+}
+
+.BoxTitle .boxTitle{
+    position: absolute;
+    top: 48px;
+    left: 93px;
+    font-size:30px;
+    font-weight: bold;
+    color: #414f6b;
+}
